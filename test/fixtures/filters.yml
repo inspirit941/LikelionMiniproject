@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  brand: MyString
+  detailurl: MyString
+  factory: MyString
+  imgname: MyString
+  modelname: MyString
+  price: 1.5
+  CA: MyString
+  asthma: MyString
+  atopy: MyString
+  allergy: MyString
+  CADR: MyString
+  anion: MyString
+  compound: MyString
+  waterfilter: MyString
+  filter: MyString
+  varietyfilter: MyString
+  HEPA: false
+  PM: MyString
+  peoung: 1.5
+  size: MyString
+
+two:
+  brand: MyString
+  detailurl: MyString
+  factory: MyString
+  imgname: MyString
+  modelname: MyString
+  price: 1.5
+  CA: MyString
+  asthma: MyString
+  atopy: MyString
+  allergy: MyString
+  CADR: MyString
+  anion: MyString
+  compound: MyString
+  waterfilter: MyString
+  filter: MyString
+  varietyfilter: MyString
+  HEPA: false
+  PM: MyString
+  peoung: 1.5
+  size: MyString

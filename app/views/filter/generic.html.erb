@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Editorial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo">공기청정기 셀렉션</a>
+									<ul class="icons">
+										
+										<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+										<!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
+										<!--<li><a href="#" class="icon fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>-->
+										<!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
+										<!--<li><a href="#" class="icon fa-medium"><span class="label">Medium</span></a></li>-->
+										
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>저가 공기청정기</h1>
+									</header>
+
+									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+
+									<p>공기청정기 분류 기준 중 저가</p>
+									<p>가격대:, 주요기능:</p>
+									<p>대표 제조사 혹은 제품: 쿠쿠, 코웨이</p>
+
+									<hr class="major" />
+
+									<h2>공기청정기 목록</h2>
+									
+									<p>목록 들어갈 자리</p>
+									<p>리스트 번호</p>
+									
+									<!--<hr class="major" />-->
+
+									<!--<h2>Magna etiam veroeros</h2>-->
+									<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>-->
+									<!--<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>-->
+
+									<!--<hr class="major" />-->
+
+									<!--<h2>Lorem aliquam bibendum</h2>-->
+									<!--<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>-->
+									<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>-->
+
+								</section>
+<!--돌아가는 버튼--------------------------------------------------------->
+											<ul class="actions">
+												<li><a href="/filter/index" class="button">back</a></li>
+											</ul>
+	<!------------------------------------------------------------->
+
+
+
+						</div>
+
+
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+							<!--	<section id="search" class="alt">-->
+							<!--		<form method="post" action="#">-->
+							<!--			<input type="text" name="query" id="query" placeholder="Search" />-->
+							<!--		</form>-->
+							<!--	</section>-->
+								
+						<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><%= link_to '홈으로', filter_index_path %></li>
+									
+												<li>가격별</li>
+											<ul>
+												<li><%= link_to '저가' , filter_low_priced_path %></li>
+												<li><%= link_to '스탠다드' , filter_standard_path %></li>
+												<li><%= link_to '프리미엄' , filter_premium_path %></li>
+
+											</ul>
+											
+										</li>
+										<li>평수별</li>
+											<ul>
+												<li>><%= link_to '원룸용' , filter_one_room_path %></li>
+												<li>><%= link_to '일반가정용' , filter_house_path %></li>
+												<li>><%= link_to '산업용' , filter_enterprise_path %></li>
+											</ul>
+										
+										<li><a href="/filter/dust_killer">미세먼지 박멸</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>공기청정기 순위</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>2018년 4월 최고 매출 공기청정기</p>
+
+
+
+<!--https://search.shopping.naver.com/bridge/searchGate.nhn?nv_mid=80042882223&frm=NVSCIMG&query=%EC%83%A4%EC%98%A4%EB%AF%B8%20%EB%AF%B8%EC%97%90%EC%96%B4%202s&h=ee3531fe67760f767eff75fcf4d4115693acc1f0&t=JHWYD2W4-->
+										</article>
+										
+										
+
+							<!-- Menu -->
+							<!--									<nav id="menu">-->
+							<!--		<header class="major">-->
+							<!--			<h2>Menu</h2>-->
+							<!--		</header>-->
+							<!--		<ul>-->
+							<!--			<li><#%= link_to 'Homepage', filter_index_path %></li>-->
+										<!--<li><a href="filter/index">Homepage</a></li>-->
+							<!--			<li><#%= link_to 'Generic', filter_generic_path %></li>-->
+							<!--			<li><a href="filter/elements">Elements</a></li>-->
+							<!--			<li>-->
+											
+								
+							<!--			<li><#%= link_to '가격별', filter_price_path %></li>-->
+									     
+							<!--				    <a href="#">- 저가    </a>-->
+							<!--				    <a href="#">- 스탠다드</a> -->
+							<!--				    <a href="#">- 프리미엄</a>-->
+    	
+
+							<!--			</li>-->
+							<!--			<li><#%= link_to '평수별', filter_room_path %></li>-->
+									     
+							<!--				    <a href="#">- 원룸용    </a>-->
+							<!--				    <a href="#">- 거실용</a> -->
+							<!--				    <a href="#">- 큰 거실용</a>-->
+    	
+
+							<!--			</li>-->
+							<!--			<li><a href="#">미세먼지 박멸</a></li>-->
+							<!--			<li><a href="#">소개페이지</li>-->
+							<!--			<li><a href="#">마크 설명</li>-->
+							<!--		        </ul>-->
+							<!--	</nav>-->
+
+							<!-- Section -->
+							<!--	<section>-->
+							<!--		<header class="major">-->
+							<!--			<h2>관련 뉴스</h2>-->
+							<!--		</header>-->
+							<!--		<div class="mini-posts">-->
+							<!--			<article>-->
+							<!--				<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>-->
+							<!--				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>-->
+							<!--			</article>-->
+							<!--			<article>-->
+							<!--				<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>-->
+							<!--				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>-->
+							<!--			</article>-->
+							<!--			<article>-->
+							<!--				<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>-->
+							<!--				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>-->
+							<!--			</article>-->
+							<!--		</div>-->
+							<!--		<ul class="actions">-->
+							<!--			<li><a href="#" class="button">More</a></li>-->
+							<!--		</ul>-->
+							<!--	</section>-->
+
+							<!-- Section -->
+							<!--	<section>-->
+							<!--		<header class="major">-->
+							<!--			<h2>연락처</h2>-->
+							<!--		</header>-->
+							<!--		<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>-->
+							<!--		<ul class="contact">-->
+							<!--			<li class="fa-envelope-o"><a href="#">information@untitled.tld</a></li>-->
+							<!--			<li class="fa-phone">(000) 000-0000</li>-->
+							<!--			<li class="fa-home">1234 Somewhere Road #8254<br />-->
+							<!--			Nashville, TN 00000-0000</li>-->
+							<!--		</ul>-->
+							<!--	</section>-->
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
