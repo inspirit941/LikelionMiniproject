@@ -2826,11 +2826,11 @@
 					}
 
 						ul.pagination li > .page.active:hover {
-							background-color: #f67878;
+							background-color: deepskyblue;
 						}
 
 						ul.pagination li > .page.active:active {
-							background-color: #f45c5c;
+							background-color: deepskyblue;
 						}
 
 				ul.pagination li:first-child {
