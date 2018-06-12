@@ -3454,14 +3454,16 @@
 						}
 
 		}
-					.card-columns {
-					  @include media-breakpoint-only(lg) {
-					    column-count: 4;
-					  }
-					  @include media-breakpoint-only(xl) {
-					    column-count: 5;
-					  }
-					}
+					/*.card-columns {*/
+					/*	@include media-breakpoint-only(lg){*/
+					/*   column-count: 4;*/
+					
+					/*  @include media-breakpoint-only(xl) {*/
+					/*    column-count: 5;*/
+					
+			
+					/*}*/
+					
 /* Wrapper */
 
 	#wrapper {
@@ -3822,6 +3824,8 @@
 
 		#header .icons {
 			text-align: right;
+			    color: #9fa3a6;
+            font-size: 0.9em;
 		}
 
 		@media screen and (max-width: 1680px) {
